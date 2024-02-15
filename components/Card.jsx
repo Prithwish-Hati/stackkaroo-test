@@ -6,7 +6,6 @@ import { useState } from "react";
 const Card = ({ heading, icon, content }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [prev, setPrev] = useState(null);
-  //   console.log(setIsHovered);
 
   return (
     <div
