@@ -10,7 +10,7 @@ const Card = ({ heading, icon, content }) => {
 
   return (
     <div
-      className="bg-violet-300 hover:bg-yellow-300 w-[400px] transition-all h-fit shadow-2xl"
+      className="bg-violet-500 hover:bg-yellow-500 w-[400px] transition-all h-fit shadow-2xl"
       onMouseEnter={() => setIsHovered(!isHovered)}
     >
       <div className="flex flex-col items-center m-5">
@@ -22,7 +22,7 @@ const Card = ({ heading, icon, content }) => {
           className="cursor-pointer object-contain mt-5"
         />
 
-        <h1 className="text-center font-bold text-2xl mt-4 ">{heading}</h1>
+        <h1 className="text-center font-bold text-2xl mt-4 text-white">{heading}</h1>
       </div>
 
       <div

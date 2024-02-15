@@ -3,7 +3,7 @@ import { designCard, codeCard, launchCard } from "@/constants";
 
 export default function Home() {
   return (
-    <main className="h-[100vh] flex justify-center items-center">
+    <main className="h-[100vh] flex justify-center items-center flex-col bg-violet-900">
       <section className="w-[100vw] flex items-center justify-around">
         <Card
           heading={designCard.name}
